@@ -77,28 +77,3 @@ lazy val pubsubStream = project
   .settings(mappings in Universal += mappingsFiles)
 
 
-//mappings in Universal += file("bigquery-loader.json") -> "home/bigquery-loader.json"
-
-//  .settings(akkaGrpcGeneratedSources := Seq(AkkaGrpc.Client))
-//  .settings(akkaGrpcGeneratedLanguages := Seq(AkkaGrpc.Scala))
-//.enablePlugins(JavaAgent,AkkaGrpcPlugin, PackPlugin)
-
-// .settings(packMain := Map("Main" -> "com.project.Main"))
-//libraryDependencies ++= Seq(
-//
-//  "com.lightbend.akka" %% "akka-stream-alpakka-google-cloud-pub-sub-grpc" % "2.0.0-M2"
-//
-//)
-
-//enablePlugins(JavaAgent)
-//javaAgents ++= Seq("org.mortbay.jetty.alpn" % "jetty-alpn-agent" % "2.0.9")
-//javaAgents += ("org.mortbay.jetty.alpn" % "jetty-alpn-agent" % "2.0.9")
-
-//dependencyOverrides ++= Seq(
-//  "com.lightbend.akka.grpc" %% "akka-grpc-runtime" % "0.7.3"
-//)
-//enablePlugins(AkkaGrpcPlugin)
-
-//akkaGrpcGeneratedSources := Seq(AkkaGrpc.Client)
-//akkaGrpcGeneratedLanguages := Seq(AkkaGrpc.Scala)
-

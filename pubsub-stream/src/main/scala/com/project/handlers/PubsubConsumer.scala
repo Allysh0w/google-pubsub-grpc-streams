@@ -16,8 +16,6 @@ trait PubsubConsumer {
                                                            ec: ExecutionContext) = {
 
     println("starting stream...")
-//    val projectId = "alpakka"
-//    val subscription = "simpleSubscription"
 
     val request = StreamingPullRequest()
       .withSubscription(s"projects/$projectId/subscriptions/$subscription")
